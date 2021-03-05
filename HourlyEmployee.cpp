@@ -9,36 +9,56 @@ using namespace std;
 
 // constructor
 
-HourlyEmployee ::HourlyEmployee ( long id, const string &last, const string &first, const string &initial, int dept, int sal)
+HourlyEmployee ::HourlyEmployee (long id, const string &last, const string &first, const string &initial,int dept, int hw,int hr)
 {
-monthlysalary=sal;
-myIdNum=id;
+hoursWorked=hw;
+
+hourlyRate=hr;
+
+overTime=0;
+
+payWeekly=0.0;
+
+myIdNum = id;
+
 myLastName = last;
+
 myFirstName = first;
+
 myMiddleInitial = initial;
+
 myDeptCode = dept;
 }
 
 // Accessor function defintions
-void HourlyEmployee ::setSalary(int sal) // set Salary 
+void HourlyEmployee ::setHoursWorked(int hw) // set hours worked
+{
+hoursWorked=hw;
+}
+
+int HourlyEmployee ::setHoursWorked() // get hours worked
+{
+
+}
+void HourlyEmployee::setHourlyRate(int hr)
 {
 
 }
 
-int HourlyEmployee ::getSalary() // get salary
+int HourlyEmployee::getHourlyRate()
 {
 
 }
 
-double HourlyEmployee ::salary_calculation() // calculate the salary
+double HourlyEmployee ::payCalculation() // calculate the hourly
 {
 
 }
 
-void HourlyEmployee :: printHourlyEmployee  ()			// print HourlyEmployee  information
+void HourlyEmployee :: printHourlyEmployee  ()			// print Hourly Employee  information
 {
   cout << endl;
-  cout << "HourlyEmployee  ID Number: " << getIdNum() << endl;
+  cout << "Employee  ID Number: " << getIdNum() << endl;
   cout << "Name: " << getLastName() <<", " << getFirstName() << " " <<
 		getMiddleInitial() <<"." << endl;
   cout << "Dept Code: " << getDeptCode () << endl;  
