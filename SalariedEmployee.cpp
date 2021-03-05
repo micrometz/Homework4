@@ -22,23 +22,24 @@ myDeptCode = dept;
 // Accessor function defintions
 void SalariedEmployee::setSalary(int sal) // set Salary 
 {
-
+monthlySalary=sal;
 }
 
 int SalariedEmployee::getSalary() // get salary
 {
-
+return monthlySalary;
 }
 
 double SalariedEmployee::salary_calculation() // calculate the salary
 {
-
+ double fraction = 1.0; // hint set the fraction default to one
+ return monthlySalary*fraction;
 }
 
 void salariedemployee:: printsalariedemployee ()			// print salariedemployee information
 {
   cout << endl;
-  cout << "salariedemployee ID Number: " << getIdNum() << endl;
+  cout << "employee ID Number: " << getIdNum() << endl; 
   cout << "Name: " << getLastName() <<", " << getFirstName() << " " <<
 		getMiddleInitial() <<"." << endl;
   cout << "Dept Code: " << getDeptCode () << endl;  
