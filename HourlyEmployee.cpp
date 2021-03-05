@@ -1,15 +1,15 @@
 
-/* salariedemployee.cpp*/
+/* HourlyEmployee .cpp*/
 #include <iostream>
 #include <iomanip>
 #include <string>
-#include "‪E:\ECE330\homework4\salariedemployee.h"
+#include "‪E:\ECE330\homework4\HourlyEmployee .h"
 #include "‪E:\ECE330\homework4\employee.h"
 using namespace std;
 
 // constructor
 
-salariedemployee::salariedemployee( long id, const string &last, const string &first, const string &initial, int dept, int sal)
+HourlyEmployee ::HourlyEmployee ( long id, const string &last, const string &first, const string &initial, int dept, int sal)
 {
 monthlysalary=sal;
 myIdNum=id;
@@ -20,25 +20,25 @@ myDeptCode = dept;
 }
 
 // Accessor function defintions
-void SalariedEmployee::setSalary(int sal) // set Salary 
+void HourlyEmployee ::setSalary(int sal) // set Salary 
 {
 
 }
 
-int SalariedEmployee::getSalary() // get salary
+int HourlyEmployee ::getSalary() // get salary
 {
 
 }
 
-double SalariedEmployee::salary_calculation() // calculate the salary
+double HourlyEmployee ::salary_calculation() // calculate the salary
 {
 
 }
 
-void salariedemployee:: printsalariedemployee ()			// print salariedemployee information
+void HourlyEmployee :: printHourlyEmployee  ()			// print HourlyEmployee  information
 {
   cout << endl;
-  cout << "salariedemployee ID Number: " << getIdNum() << endl;
+  cout << "HourlyEmployee  ID Number: " << getIdNum() << endl;
   cout << "Name: " << getLastName() <<", " << getFirstName() << " " <<
 		getMiddleInitial() <<"." << endl;
   cout << "Dept Code: " << getDeptCode () << endl;  
