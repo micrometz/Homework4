@@ -11,8 +11,6 @@ class Employee
 {
 public:
   Employee(long = 0, const string & ="" , const string & ="", const string & = "", int =0);	// constructor
-  SalariedEmployee(long id, const string &last, const string &first, const string &initial,int dept, int sal) //constructor for salaried employee
-  HourlyEmployee(long = 0, const string & ="" , const string & ="", const string & = "", int =0, int=0,int=0); // constructor for hourly employee 
   void setIdNum (const long );			// set id number
   long getIdNum () const;				// get id number
   void setLastName (const string &);	// set last name

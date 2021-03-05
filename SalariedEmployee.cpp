@@ -30,7 +30,7 @@ int SalariedEmployee::getSalary() // get salary
 return monthlySalary;
 }
 
-double SalariedEmployee::salary_calculation() // calculate the salary
+double SalariedEmployee::salaryCalculation() // calculate the salary
 {
  double fraction = 1.0; // hint set the fraction default to one
  return monthlySalary*fraction;
@@ -43,4 +43,5 @@ void salariedemployee:: printsalariedemployee ()			// print salariedemployee inf
   cout << "Name: " << getLastName() <<", " << getFirstName() << " " <<
 		getMiddleInitial() <<"." << endl;
   cout << "Dept Code: " << getDeptCode () << endl;  
+  cout << " employee's Salary is : " <<SalariedEmployee::salaryCalculation () << endl; // prints out the salary of the employee
 }
