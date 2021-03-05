@@ -1,29 +1,21 @@
 /* Salariedemployee.h	*/
-
-#ifndef EMPLOYEE
-#define EMPLOYEE
-
+#ifndef SalariedEmployee
+#define SalariedEmployee
 #include <string>
-#include #include "‪E:\ECE330\homework4\employee.h"
+#include "‪E:\ECE330\homework4\employee.h"
 using namespace std;
 
-class SalariedEmployee: public Employee // makes it so that salriedemplyee has the base props of employees
+class SalariedEmployee: public Employee // makes it so that Salaried Employee has the base props of employees
 {
 public:
-SalariedEmployee(long id, const string &last, const string &first, const string &initial,int dept, int sal) //constructor for salaried employee
+SalariedEmployee(long = 0, const string & ="" , const string & ="", const string & = "", int =0) //constructor for salaried employee
 int monthlySalary; // monthly salary for the employee
 void setSalary(int); // set monthly salary 
 int getSalary(); // get monthly salary
 double salaryCalculation(); //cals the salary
 void printSalariedEmployee(); //prints salaried employee
-  
-  
 private:
-  long  myIdNum;			//Employee id number
-  string myLastName;		//Employee last name
-  string myFirstName;		//Employee first name
-  string myMiddleInitial;	//Employee middle intial
-  int myDeptCode;			//Department code
+double monthlySalary;
+double fraction = 1.0; // hint set the fraction default to one
 };
-
 #endif

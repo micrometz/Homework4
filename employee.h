@@ -21,10 +21,7 @@ public:
   string getMiddleInitial () const;		// return set middle initial
   void setDeptCode(const int);			// set department code
   int getDeptCode () const;				// get department code
-  void printEmployee ();				// print Employee information
- 
-  
-  
+  void printEmployee ();				// print Employee information 
 private:
   long  myIdNum;			//Employee id number
   string myLastName;		//Employee last name

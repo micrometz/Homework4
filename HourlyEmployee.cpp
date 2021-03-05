@@ -1,10 +1,11 @@
-
 /* HourlyEmployee .cpp*/
 #include <iostream>
 #include <iomanip>
 #include <string>
-#include "‪E:\ECE330\homework4\HourlyEmployee .h"
+
+#include "‪E:\ECE330\homework4\HourlyEmployee.h"
 #include "‪E:\ECE330\homework4\employee.h"
+
 using namespace std;
 
 // constructor

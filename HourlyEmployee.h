@@ -4,7 +4,10 @@
 #define EMPLOYEE
 
 #include <string>
-#include #include "‪E:\ECE330\homework4\employee.h"
+
+
+#include "‪E:\ECE330\homework4\employee.h"
+
 using namespace std;
 
 class HourlyEmployee : public Employee // makes it so that Hourly Employee has the base props of employees
