@@ -4,8 +4,8 @@
 #include <string>
 
 
-#include "‪E:\ECE330\homework4\salariedemployee.h"
-#include "‪E:\ECE330\homework4\employee.h"
+#include <‪E:\ECE330\homework 4\salariedemployee.h>
+//#include "‪E:\ECE330\homework 4\employee.h"
 
 using namespace std;
 
@@ -13,12 +13,12 @@ using namespace std;
 
 salariedemployee::salariedemployee( long id, const string &last, const string &first, const string &initial, int dept, int sal)
 {
-Employee::myIdNum=id;
-Employee::myLastName = last;
-Employee::myFirstName = first;
-Employee::myMiddleInitial = initial;
-Employee::myDeptCode = dept;
-monthlysalary=sal;
+myIdNum=id;
+myLastName = last;
+myFirstName = first;
+myMiddleInitial = initial;
+myDeptCode = dept;
+//monthlysalary=sal;
 }
 
 // Accessor function defintions

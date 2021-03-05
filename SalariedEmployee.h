@@ -1,8 +1,6 @@
 /* Salariedemployee.h	*/
-#ifndef SalariedEmployee
-#define SalariedEmployee
 #include <string>
-#include "‪E:\ECE330\homework4\employee.h"
+#include "‪E:\ECE330\homework 4\salariedemployee.h"
 using namespace std;
 
 class SalariedEmployee: public Employee // makes it so that Salaried Employee has the base props of employees
@@ -14,8 +12,6 @@ void setSalary(int); // set monthly salary
 int getSalary(); // get monthly salary
 double salaryCalculation(); //cals the salary
 void printSalariedEmployee(); //prints salaried employee
-private:
 double monthlySalary;
 double fraction = 1.0; // hint set the fraction default to one
 };
-#endif

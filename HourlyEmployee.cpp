@@ -3,8 +3,8 @@
 #include <iomanip>
 #include <string>
 
-#include "‪E:\ECE330\homework4\HourlyEmployee.h"
-#include "‪E:\ECE330\homework4\employee.h"
+#include <‪E:\ECE330\homework 4\HourlyEmployee.h>
+
 
 using namespace std;
 
@@ -55,7 +55,7 @@ double HourlyEmployee ::payCalculation() // calculate the hourly
 {
 if () // if statment to check if they have worked over 40 hours if they do the extra hours is calucated with over time included  
 {
-overTime=hoursWorked- 40; //hours worked in overtime
+overTime=hoursWorked - 40; //hours worked in overtime
 payWeekly= (hourlyRate*40) + (hourlyRate*overTime*1.5); // (normal pay) + (hourly pay * hours in over time * 1.5 times the regular hourly rate)
 return payWeekyly;
 }

@@ -1,12 +1,9 @@
 /* HourlyEmployee .h	*/
 
-#ifndef EMPLOYEE
-#define EMPLOYEE
-
 #include <string>
 
 
-#include "‪E:\ECE330\homework4\employee.h"
+#include "<E:\ECE330\homework 4\Employee.h>
 
 using namespace std;
 
@@ -23,13 +20,14 @@ int getHourlyRate();
 double payCalculation();
 void printHourlyEmployee();
   
-  
+/*  
 private:
   long  myIdNum;			//Employee id number
   string myLastName;		//Employee last name
   string myFirstName;		//Employee first name
   string myMiddleInitial;	//Employee middle intial
   int myDeptCode;			//Department code
-};
 
+*/
+};
 #endif
